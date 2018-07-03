@@ -24,7 +24,7 @@ class MusicLibraryController
     "exit"
     3.times do
       gets
-
+    list_songs if gets == "list songs"
     end
   end
 
