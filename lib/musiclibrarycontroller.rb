@@ -19,8 +19,11 @@ class MusicLibraryController
     puts "To list all of the genres in your library, enter 'list genres'."
     list_genres if gets
     puts "To list all of the songs by a particular artist, enter 'list artist'."
+    list_songs_by_artist if gets
     puts "To list all of the songs of a particular genre, enter 'list genre'."
+    list_songs_by_genre if gets
     puts "To play a song, enter 'play song'."
+    play_song
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     gets
