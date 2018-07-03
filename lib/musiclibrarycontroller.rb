@@ -23,9 +23,9 @@ class MusicLibraryController
     gets
     "exit"
     3.times do
-      gets
+      input = gets
     end
-    list_songs if gets == "list songs"
+    list_songs if input == "list songs"
   end
 
   def list_songs
