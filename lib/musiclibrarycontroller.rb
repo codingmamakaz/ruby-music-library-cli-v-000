@@ -87,5 +87,5 @@ class MusicLibraryController
     end
   end
 
-list_songs(arg)
+  self.list_songs
 end
