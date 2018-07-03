@@ -24,7 +24,9 @@ class MusicLibraryController
     "exit"
     3.times do
       input = gets
-      list_songs if input == "list songs"
+      if input == "list songs"
+        list_songs
+      end
     end
 
   end
