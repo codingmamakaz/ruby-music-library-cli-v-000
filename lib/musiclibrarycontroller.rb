@@ -24,7 +24,7 @@ class MusicLibraryController
     "exit"
     3.times do
       gets
-      list_songs()
+      self.list_songs(ar)
     end
   end
 
