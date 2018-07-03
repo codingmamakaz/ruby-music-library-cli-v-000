@@ -87,6 +87,4 @@ class MusicLibraryController
     end
   end
 
-  list_songs(*(any args))
-
 end
