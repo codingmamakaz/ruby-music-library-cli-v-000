@@ -4,5 +4,5 @@ require_relative '../config/environment'
 
 MusicLibraryController.new.call
 
-gets
+
 MusicLibraryController.list_songs(anyarg)
